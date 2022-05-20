@@ -17,7 +17,7 @@ jobs:
       uses: actions/setup-java@v2
       with:
         distribution: temurin
-        java-version: 10
+        java-version: 11
         cache: maven
     #### AUFGABE 2: SONAR
       # hier kommt die Konfiguration der Sonar-Analyse rein
